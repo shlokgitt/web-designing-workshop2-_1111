@@ -29,7 +29,7 @@ function displayAllEmployees() {
     <tr><th>ID</th><th>Name</th><th>Dept</th><th>Salary</th></tr>
     </thead><tbody>`;
     for (let emp of employees) {
-        let cls = emp.salary > 50000 ? "badge-high" : "badge-low";
+        let cls = (emp.salary > 50000 )? "badge-high" : "badge-low";
         html += `<tr>
         <td>${emp.id}</td>
         <td>${emp.name}</td>
