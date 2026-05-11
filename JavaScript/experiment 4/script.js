@@ -44,13 +44,13 @@ function calculateResult() {
     }
     // Step 6: Determine pass or fail
     let resultStatus;
-    let resultClass;
+   
     if (averageMarks >= 40) {
         resultStatus = "PASS";
-        resultClass = "pass";
+       
     } else {
         resultStatus = "FAIL";
-        resultClass = "fail";
+        
     }
     // Step 7: Display results on the webpage
     let resultBox = document.getElementById("resultBox");
