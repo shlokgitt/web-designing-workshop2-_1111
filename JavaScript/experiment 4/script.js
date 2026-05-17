@@ -45,7 +45,7 @@ function calculateResult() {
     // Step 6: Determine pass or fail
     let resultStatus;
    
-    if (averageMarks >= 40) {
+    if (averageMarks >= 41) {
         resultStatus =  "PASS";
        
     } else {
