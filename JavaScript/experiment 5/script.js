@@ -6,7 +6,7 @@ function addEmployee() {
     let salary = parseFloat(document.getElementById("empSalary").value);
     let dept   = document.getElementById("empDept").value.trim();
     if (!name || isNaN(id) || isNaN(salary) || !dept) {
-        showAddMessage("⚠️ Fill all fields correctly", "error");
+        showAddMessage(" Fill all fields correctly", "error");
         return;
     }
     let exists = employees.find(emp => emp.id === id);
