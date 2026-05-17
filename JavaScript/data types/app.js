@@ -20,7 +20,7 @@ console.log( typeof bigIntValue);
 
 //objects 
 let person = {
-    name:"Shlok",
+    name:"xyz",
     age:21,
     isstudent:false
 
